@@ -60,6 +60,7 @@ import {Affix ,
     Mention ,
     Upload
 } from 'antd';
+const { Header, Footer, Sider, Content } = Layout;//将Layout下的组件暴露出来
 export default {
     Affix ,
     Anchor ,
@@ -90,6 +91,7 @@ export default {
     Input ,
     InputNumber ,
     Layout ,
+    Header, Footer, Sider, Content,
     List ,
     Menu ,
     Mentions ,
